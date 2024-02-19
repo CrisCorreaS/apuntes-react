@@ -1,0 +1,15 @@
+/* Estos son los estilos generales para toda la página */
+body {
+  margin: 0;
+  background: #222;
+  font-family: system-ui, sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
