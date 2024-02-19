@@ -13,3 +13,12 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+
+a{
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  color: azure;
+  border: solid 1px azure;
+  border-radius: 99px;
+}
