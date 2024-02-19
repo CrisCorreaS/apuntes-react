@@ -8,8 +8,9 @@
 <br/>
 
 # APUNTES Y CONSEJOS DE REACT
-## Para buscar referencias de etiquetas
-- 
+## Para buscar referencias 
+- [Web oficial de React](https://es.react.dev/)
+- [Preguntas típicas de React](https://www.reactjs.wiki/)
 
 ## Apuntes o cursos gratis
 - [Construye tu webApp con React - Alonso Nava](https://www.youtube.com/watch?v=LRzi8PqdbGY&list=PLRfcnifbUdc3RicRRpoXoh1kboRwOzLOn)
@@ -22,3 +23,7 @@
 
 ## Proyectos 
 - [Build 25 React Projects - FreeCodeCamp](https://www.youtube.com/watch?v=5ZdHfJVAY-s&t=12s)
+
+## Transpiradores de Código
+- [SWC.rs](https://swc.rs/playground)
+- [Babeljs.io](https://babeljs.io/repl)
