@@ -27,3 +27,13 @@
 ## Transpiradores de Código
 - [SWC.rs](https://swc.rs/playground)
 - [Babeljs.io](https://babeljs.io/repl)
+
+
+> [!NOTE]
+> **Para instalar Node o actualizarlo**
+> - Primero mira la versión que utilizas con ``node --version``
+> - Lista las versiones de Node que tienes descargadas y la que usas con ``nvm ls`` -> La que usas sale con un asterisco
+> - Lista todas las versiones de Node que pueden instalarse con ``nvm ls available``
+> - Instala la versión de Node que quieras con ``nvm install número_versión`` -> Ej: ``nvm install 20``
+> - Comprueba todas las versiones que tienes descargadas otra vez con ``nvm ls``
+> - Elige la versión de Node con la que quieras trabajar con ``nvm use número_versión`` -> Ej: ``nvm use 20``
