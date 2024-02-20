@@ -49,7 +49,7 @@ function AppJuegoInicio() {
 
   const updateBoard = (index) => { // Cuando el usuario hace click, necesitamos saber en cual de las casillas ha hecho click, por lo que tenemos que pasar el índice como parámetro
     // Darle el valor del turno a la casilla a la que se le ha hecho click y actualizarlo
-    const newBoard = [...board]; // Creamos un nuevo board
+    const newBoard = [...board]; // Creamos un nuevo board -> No se pueden mutar las props ni los estados porque luego dan problemas y discrepancias en el renderizado, es por eso que tenemos que hacer una copia del board y editarla. La copia del array de forma superficial se puede hacer con el spread operator ([...board]); y para hacer la copia de forma profunda se tendría que utilizar structuredClone (structuredClone(board))
     newBoard[index] = turn; // Le decimos que el valor de la casilla actual es igual al del turno
     setBoard(newBoard); // Actualizamos el board
 
