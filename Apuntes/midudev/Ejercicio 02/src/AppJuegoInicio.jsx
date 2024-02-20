@@ -1,11 +1,14 @@
 import { useState } from "react";
 import "./App.css";
 /*
-|0|1|2|
--------
-|3|4|5|
--------
-|6|7|8|
+Esta es la primera parte explicada, el juego ahora ya funciona pero aún no se verifica el ganador, los valores de las casillas se pueden sobreescribir y es como un juego infinito
+
+Estructura:
+  |0|1|2|
+  -------
+  |3|4|5|
+  -------
+  |6|7|8|
 */
 
 const TURNS = { // Turnos
